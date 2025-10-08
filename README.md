@@ -14,6 +14,10 @@ Contains the CRUD queries for the project, and can be found in the "scripts" fol
 ### analysis_queries.sql
 Contains the queries for the analysis, and can be found in the "scripts" folder. The analysis queries are placed in a separate file to 1) keep all of the queries organized and 2) avoid any unexpected changes from the CRUD queries. Since the CRUD queries change the structure of the table, we must be mindful when running these queries to avoid unexpected changes, such as adding a duplicate row. The analysis queries do not change the structure of the data, so it is safe to run them over and over again. With two .sql files, we have a file we have to use cautiously, and a file we can use with less caution.
 
+## Bonus Files
+### university_database_updated.db
+Contains the data after the CRUD queries were performed, and can be found in the "data" folder.
+
 ## Setup Instructions
 The following instructions assume you have SQLite and Visual Studio Code (VS Code) installed. If you do not have SQLite and Visual Studio Code installed, use the following links:
 - SQLite: https://sqlite.org/download.html
