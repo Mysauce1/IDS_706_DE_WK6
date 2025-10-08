@@ -50,7 +50,8 @@ sqlite3 data/university_database.db
 ```
 to open the SQLite CLI
 Your screen should look like this:
-(insert CLI screen)
+<img width="688" height="178" alt="Screenshot 2025-10-07 223334" src="https://github.com/user-attachments/assets/ddeacb36-a8cc-40e3-a26e-1fea6ce22b72" />
+
 
 ### 4. Ensure Proper Output Formatting
 In the CLI, run:
@@ -116,7 +117,7 @@ FROM university_rankings;
 This query counts the number of unique countries that are present in the table, and returns the total under the column number_of_countries.
 
 The output for this query is shown below:
-(insert output 1)
+<img width="336" height="100" alt="Screenshot 2025-10-07 221653" src="https://github.com/user-attachments/assets/9c87bf54-4f90-4002-aafc-fd493716e1a5" />
 
 Based on this output, the university_rankings table includes universities from 59 different countries.
 
@@ -132,6 +133,7 @@ ORDER BY AVG(score) DESC;
 This query returns takes the average of the scores in each country in 2015. It returns the countries and their average score (under the column avg_score) in descending order to show which country has the highest average score first.
 
 The output for this query is shown below:
-(insert output 2)
+<img width="547" height="1293" alt="Screenshot 2025-10-07 221731" src="https://github.com/user-attachments/assets/cde59d06-8546-470f-8467-072ba508a2b8" />
+
 
 Based on this output, Israel has the highest average score, and the USA does not trail too far behind with the second highest average score. Meanwhile countries like Chile and Argentina have lower average scores. This indicates that countries like Israel and the USA have well-performing institutions (based on what is being measured in the score), while universities in countries like Chile and Argentina do not perform as well. Since Chile and Argentina are a part of the global South, they might suffer from limited resources. This could potentially be a reason why their universities have lower.
