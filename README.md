@@ -117,6 +117,7 @@ FROM university_rankings;
 This query counts the number of unique countries that are present in the table, and returns the total under the column number_of_countries.
 
 The output for this query is shown below:
+
 <img width="336" height="100" alt="Screenshot 2025-10-07 221653" src="https://github.com/user-attachments/assets/9c87bf54-4f90-4002-aafc-fd493716e1a5" />
 
 Based on this output, the university_rankings table includes universities from 59 different countries.
@@ -133,6 +134,7 @@ ORDER BY AVG(score) DESC;
 This query returns takes the average of the scores in each country in 2015. It returns the countries and their average score (under the column avg_score) in descending order to show which country has the highest average score first.
 
 The output for this query is shown below:
+
 <img width="547" height="1293" alt="Screenshot 2025-10-07 221731" src="https://github.com/user-attachments/assets/cde59d06-8546-470f-8467-072ba508a2b8" />
 
 
